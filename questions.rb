@@ -23,3 +23,11 @@ end
 def every_possible_pairing_of_students(array)
 	array.combination(2).to_a
 end
+
+def all_elements_except_first_3(array)
+	array.drop(3)
+end
+
+def add_element_to_beginning_of_array(array, n)
+
+end
