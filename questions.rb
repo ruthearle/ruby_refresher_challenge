@@ -28,5 +28,5 @@ def all_elements_except_first_3(array)
 end
 
 def add_element_to_beginning_of_array(array, n)
-	a
+	array.unshift(n)
 end

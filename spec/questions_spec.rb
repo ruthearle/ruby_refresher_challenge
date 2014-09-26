@@ -18,7 +18,7 @@ describe 'the Friday test :)' do
     expect(n).to eq ['omar', 'idris', 'angela']
   end
 
-  fit specify 'remove_nils_from_array' do
+  specify 'remove_nils_from_array' do
     n = remove_nils_from_array ['a', 'b', nil, nil, false, 'c', nil]
     expect(n).to eq ['a', 'b', false, 'c']
   end
@@ -45,12 +45,12 @@ describe 'the Friday test :)' do
     expect(n).to eq [4, 5, 6, 7]
   end
 
-  fit specify 'add_element_to_beginning_of_array' do
+  specify 'add_element_to_beginning_of_array' do
     n = add_element_to_beginning_of_array [2, 3, 4, 5], 1
     expect(n).to eq [1, 2, 3, 4, 5]
   end
 
-  specify 'array_sort_by_last_letter_of_word' do
+  fit specify 'array_sort_by_last_letter_of_word' do
     n = array_sort_by_last_letter_of_word ['sky', 'puma', 'maker']
     expect(n).to eq ['puma', 'maker', 'sky']
   end
