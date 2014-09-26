@@ -1,7 +1,5 @@
 def select_elements_starting_with_a(array)
-
 	array.select! { |word| word.start_with?("a")}
-
 end
 
 def select_elements_starting_with_vowel(array)
@@ -9,7 +7,8 @@ def select_elements_starting_with_vowel(array)
 end
 
 def remove_nils_from_array(array)
-	array.delete_if { |word| word == nil }
+	# array.delete_if { |word| word == nil }
+	array.compact
 end
 
 def remove_nils_and_false_from_array(array)
@@ -29,5 +28,5 @@ def all_elements_except_first_3(array)
 end
 
 def add_element_to_beginning_of_array(array, n)
-
+	a
 end
