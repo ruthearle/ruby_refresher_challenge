@@ -16,3 +16,6 @@ def remove_nils_and_false_from_array(array)
 	array.delete_if { |word| (word == nil) || (word == false) }
 end
 
+def reverse_every_element_in_array(array)
+	array.map! { |word| word.reverse }
+end
