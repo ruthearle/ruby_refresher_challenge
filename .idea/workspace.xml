@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d69bb56b-d2ad-470b-a697-7aeebd0bade6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questions.rb" afterPath="$PROJECT_DIR$/questions.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/questions_spec.rb" afterPath="$PROJECT_DIR$/spec/questions_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruby-refresher.iws" />
@@ -236,7 +234,11 @@
       <created>1411739409772</created>
       <updated>1411739409772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5th test passed - 'Every possible pairing of students'">
+      <created>1411741577989</created>
+      <updated>1411741577989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -265,7 +267,7 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27862597" sideWeight="0.56922257" order="7" side_tool="false" content_ui="tabs" x="19" y="625" width="1394" height="219" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27862597" sideWeight="0.56922257" order="7" side_tool="false" content_ui="tabs" x="19" y="625" width="1394" height="219" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -302,7 +304,8 @@
     <MESSAGE value="2nd test passed - select elements starting with vowel" />
     <MESSAGE value="3rd test passed - 'Remove nils and false from array's'" />
     <MESSAGE value="4th test passed - 'Reverse every element in an array'" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th test passed - 'Reverse every element in an array'" />
+    <MESSAGE value="5th test passed - 'Every possible pairing of students'" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th test passed - 'Every possible pairing of students'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
