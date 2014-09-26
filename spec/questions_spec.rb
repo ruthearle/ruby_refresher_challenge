@@ -8,22 +8,22 @@ end
 
 describe 'the Friday test :)' do
   
-  fit specify 'select_elements_starting_with_a' do
+  specify 'select_elements_starting_with_a' do
     n = select_elements_starting_with_a ['bananas', 'apples', 'pears', 'avocados']
     expect(n).to eq ['apples', 'avocados']
   end
 
-  fit specify 'select_elements_starting_with_vowel' do
+  specify 'select_elements_starting_with_vowel' do
     n = select_elements_starting_with_vowel ['john', 'david', 'omar', 'fred', 'idris', 'angela']
     expect(n).to eq ['omar', 'idris', 'angela']
   end
 
-  fit specify 'remove_nils_from_array' do
+  specify 'remove_nils_from_array' do
     n = remove_nils_from_array ['a', 'b', nil, nil, false, 'c', nil]
     expect(n).to eq ['a', 'b', false, 'c']
   end
 
-  specify 'remove_nils_and_false_from_array' do
+  fit specify 'remove_nils_and_false_from_array' do
     n = remove_nils_and_false_from_array ['a', 'b', nil, nil, false, 'c', nil]
     expect(n).to eq ['a', 'b', 'c']
   end
