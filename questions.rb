@@ -34,3 +34,15 @@ end
 def array_sort_by_last_letter_of_word(array)
 	array.sort_by { |word| word[-1] }
 end
+
+# def get_first_half_of_string(string)
+# 	string[0, string.length/2]
+# end
+
+def make_numbers_negative(number)
+	if number <= 0
+		number
+	else
+		-number
+	end
+end
