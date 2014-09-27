@@ -40,9 +40,6 @@ end
 # end
 
 def make_numbers_negative(number)
-	if number <= 0
-		number
-	else
-		-number
-	end
+	number <= 0 ?	number : -number
 end
+
