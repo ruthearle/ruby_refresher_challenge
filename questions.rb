@@ -66,3 +66,7 @@ end
 def total_of_array(numbers)
 	numbers.reduce(:+)
 end
+
+def double_array(array)
+
+end
