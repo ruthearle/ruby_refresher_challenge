@@ -48,3 +48,21 @@ def separate_array_into_even_and_odd_numbers(array)
 	even = array.select { |number| number.even? }
 	new = [even, odd]
 end
+
+def number_of_elements_that_are_palindromes(array)
+	count = 0
+  array.each { |word| word == word.reverse ? count += 1 : count += 0}
+	count
+end
+
+def shortest_word_in_array (array)
+	array.sort {|x, y| x.length <=> y.length}.first
+end
+
+def longest_word_in_array(array)
+	array.sort { |x, y| y.length <=> x.length}.first
+end
+
+def total_of_array(numbers)
+	numbers.reduce(:+)
+end
