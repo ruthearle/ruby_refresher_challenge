@@ -96,3 +96,11 @@ def add_together_keys_and_values(hash)
 	hash.each { |key, value| total += key + value }
 	total
 end
+
+def remove_capital_letters_from_string(string)
+	string.gsub(/[A-Z]/, '')
+end
+
+def round_up_number(number)
+	number.ceil
+end
