@@ -75,3 +75,14 @@ def turn_symbol_into_string(symbol)
 	symbol.to_s
 end
 
+def average_of_array(array)
+	(array.reduce(:+).to_f / array.length).round
+end
+
+def get_elements_until_greater_than_five(array)
+	array.take_while { |number| number <= 5 }
+end
+
+def convert_array_to_a_hash(arr)
+	arr.each_slice(2).map { |pair| Hash[*pair] }.reduce{|acc, el| acc.merge(el)  }
+end
