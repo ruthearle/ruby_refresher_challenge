@@ -86,3 +86,13 @@ end
 def convert_array_to_a_hash(arr)
 	arr.each_slice(2).map { |pair| Hash[*pair] }.reduce{|acc, el| acc.merge(el)  }
 end
+
+def swap_keys_and_values_in_a_hash(hash)
+	hash.invert
+end
+
+def add_together_keys_and_values(hash)
+	total = 0
+	hash.each { |key, value| total += key + value }
+	total
+end

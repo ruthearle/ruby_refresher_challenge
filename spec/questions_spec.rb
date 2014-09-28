@@ -121,7 +121,7 @@ describe 'the Friday test :)' do
     expect(n).to eq({'a' => 'b', 'c' => 'd'})
   end
 
-  fit specify 'get_all_letters_in_array_of_words' do
+  specify 'get_all_letters_in_array_of_words' do
     n = get_all_letters_in_array_of_words ['cat', 'dog', 'fish']
     expect(n).to eq ['a', 'c', 'd', 'f', 'g', 'h', 'i', 'o', 's', 't']
   end
@@ -136,7 +136,7 @@ describe 'the Friday test :)' do
     expect(n).to eq 6
   end
 
-  specify 'remove_capital_letters_from_string' do
+  fit specify 'remove_capital_letters_from_string' do
     n = remove_capital_letters_from_string 'Hello JohnDoe'
     expect(n).to eq 'ello ohnoe'
   end
