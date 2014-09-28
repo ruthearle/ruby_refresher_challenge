@@ -68,5 +68,10 @@ def total_of_array(numbers)
 end
 
 def double_array(array)
-
+	array + array
 end
+
+def turn_symbol_into_string(symbol)
+	symbol.to_s
+end
+
