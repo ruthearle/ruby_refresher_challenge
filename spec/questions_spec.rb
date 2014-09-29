@@ -141,7 +141,7 @@ describe 'the Friday test :)' do
     expect(n).to eq 'ello ohnoe'
   end
 
-  fit specify 'round_up_number' do
+  specify 'round_up_number' do
     n = round_up_number 3.142
     expect(n).to eq 4
   end
@@ -156,7 +156,7 @@ describe 'the Friday test :)' do
     expect(n).to eq '31/10/2013'
   end
 
-  specify 'get_domain_name_from_email_address' do
+  fit specify 'get_domain_name_from_email_address' do
     n = get_domain_name_from_email_address 'alex@makersacademy.com'
     expect(n).to eq 'makersacademy'
   end

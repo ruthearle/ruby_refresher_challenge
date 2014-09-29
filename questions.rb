@@ -104,3 +104,11 @@ end
 def round_up_number(number)
 	number.ceil
 end
+
+def round_down_number(number)
+	number.truncate
+end
+
+def format_date_nicely(date)
+	"#{date.day}/#{date.month}/#{date.year}"
+end
